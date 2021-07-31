@@ -7,17 +7,9 @@ theme:
     - navigation.sections
   name: material
   palette:
-    - primary: orange
-    - accent: deep orange
-
-    - scheme: default
-      toggle:
-        - icon: material/toggle-switch-off-outline
-        - name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        - icon: material/toggle-switch
-        - name: Switch to light mode
+    scheme: slate
+    primary: orange
+    accent: deep orange
   font:
     text: Maven Pro
     code: Roboto Mono
