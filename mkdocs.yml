@@ -1,0 +1,23 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+theme:
+  features:
+    - navigation.tabs
+    - navigation.sections
+  name: material
+  palette:
+    - primary: orange
+    - accent: deep orange
+
+    - scheme: default
+      toggle:
+        - icon: material/toggle-switch-off-outline
+        - name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        - icon: material/toggle-switch
+        - name: Switch to light mode
+  font:
+    text: Maven Pro
+    code: Roboto Mono
